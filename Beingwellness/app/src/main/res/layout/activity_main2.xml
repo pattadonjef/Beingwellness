@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f2f7ff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+
+    <Button
+        android:id="@+id/change_password_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btnforget"
+        android:text="Change Password"
+        android:textAlignment="center"
+
+        android:textColor="@color/textcolor2" />
+
+
+    <Button
+        android:id="@+id/change_email_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btnforget"
+        android:text="Change Email"
+        android:textColor="@color/textcolor2" />
+
+
+    <Button
+        android:id="@+id/delete_user_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btnforget"
+        android:text="Delete User"
+        android:textColor="@color/textcolor2" />
+
+
+    <Button
+        android:id="@+id/sign_out_button"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btnforget"
+
+        android:text="Sign Out"
+        android:textColor="@color/textcolor2" />
+
+
+</LinearLayout>
+
+
+
+
+

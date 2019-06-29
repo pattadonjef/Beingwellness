@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "413655216678",
+    "firebase_url": "https://beingwellness-eb237.firebaseio.com",
+    "project_id": "beingwellness-eb237",
+    "storage_bucket": "beingwellness-eb237.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413655216678:android:46525c8eeb673e55",
+        "android_client_info": {
+          "package_name": "app.being.pattadonjaisin.beingwellness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413655216678-2bqrk1hro68fqjpnv8r7d95mam9nqle6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.being.pattadonjaisin.beingwellness",
+            "certificate_hash": "0dd46be8979a13141c72de5820c30bcaa1adf1cf"
+          }
+        },
+        {
+          "client_id": "413655216678-7a8nh93vppros2qdtimd1jkfeqadoeg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzq530G7OkYqfKHJvGxOOAvavE5GtBFZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413655216678-7a8nh93vppros2qdtimd1jkfeqadoeg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

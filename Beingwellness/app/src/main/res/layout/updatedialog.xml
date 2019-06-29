@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Food">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        >
+
+        <TextView
+            android:id="@+id/textupfate"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/background"
+            android:text="UPDATE"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+
+    <TableRow
+
+        android:id="@+id/firstRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="35dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/updatename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:hint="@string/Foodname"
+            android:inputType="textPersonName" />
+
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/firstRow12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories"
+            android:layout_marginLeft="35dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/updatecal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:ems="10"
+            android:hint="@string/Calories"
+            android:inputType="numberDecimal" />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/firstRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Sugar"
+            android:layout_marginLeft="35dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/updatesug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:hint="@string/Sugar"
+            android:inputType="numberDecimal" />
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/firstRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sodium"
+            android:layout_marginLeft="35dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/updatesod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+android:layout_marginLeft="13dp"
+            android:ems="10"
+            android:hint="@string/Sodium"
+            android:inputType="numberDecimal" />
+
+    </TableRow><TableRow
+
+    android:id="@+id/firstRow15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- first element of the row-->
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fat"
+        android:layout_marginLeft="35dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/updatefat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+android:layout_marginLeft="53dp"
+        android:ems="10"
+        android:hint="@string/Fat"
+        android:inputType="numberDecimal" />
+</TableRow>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="@color/background"
+        android:background="@color/orange"
+        android:id="@+id/updatebut"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="@color/orange"
+        android:textColor="@color/background"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/deletebut"
+        />
+
+</LinearLayout>

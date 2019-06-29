@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardfood"
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                    android:id="@+id/textname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+
+                    android:text="TextView"
+                    android:textSize="20sp"/>
+
+                </LinearLayout>
+                <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+                <!--android:id="@+id/tableLayout1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1">-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TableRow
+
+                        android:id="@+id/firstRow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Calories"
+                            android:textColor="#000"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/textcal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="kcal"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+
+                    </TableRow>
+                    <TableRow
+
+                        android:id="@+id/firstRow3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Suga"
+                            android:textColor="#000"
+                            android:textSize="12dp" />
+
+                        <TextView
+
+                            android:layout_marginLeft="25dp"
+                            android:id="@+id/foodsug"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="g"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+
+                    </TableRow>
+                    <TableRow
+
+                        android:id="@+id/firstRow6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sodium"
+                            android:textColor="#000"
+                            android:textSize="12dp" />
+
+                        <TextView
+
+                            android:id="@+id/foodsod"
+                            android:layout_marginLeft="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="mg"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+
+                    </TableRow>
+                    <TableRow
+
+                        android:id="@+id/firstRow"
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp">
+
+                        <!-- first element of the row-->
+                        <TextView
+
+                            android:id="@+id/simpleTextView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Fat"
+                            android:textColor="#000"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_marginLeft="35dp"
+                            android:id="@+id/foodfat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="g"
+                            android:textColor="#000"
+                            android:textSize="14dp" />
+
+                    </TableRow>
+
+
+
+                    <!--</TableLayout>-->
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+
+                    android:id="@+id/imgCmdShared"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                        android:layout_marginRight="1dp"
+                    android:src="@android:drawable/ic_menu_set_as" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--]-->
+
+
+        <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/cardfood"-->
+            <!--android:layout_width="400dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_margin="10dp"-->
+
+            <!--card_view:cardCornerRadius="10dp"-->
+            <!--card_view:cardElevation="5dp">-->
+
+
+            <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+                <!--android:id="@+id/tableLayout1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1">-->
+
+
+                <!--<TableRow-->
+
+                <!--android:layout_width="wrap_content"-->
+
+                <!--android:layout_height="wrap_content" >-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/textname"-->
+                <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="TextView" />-->
+
+
+
+                <!--<TextView-->
+                <!--android:id="@+id/textcal"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="TextView"-->
+                <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />-->
+
+                <!--<ImageButton-->
+
+                <!--android:id="@+id/imgCmdShared"-->
+
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:layout_marginLeft="10dp"-->
+
+                <!--android:src="@android:drawable/ic_menu_set_as" />-->
+
+
+
+                <!--</TableRow>-->
+
+
+            <!--</TableLayout>-->
+
+
+        <!--</android.support.v7.widget.CardView>-->
+    <!--</RelativeLayout>-->
+<!--</LinearLayout>-->
+

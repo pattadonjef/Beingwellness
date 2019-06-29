@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cam"
+        android:title="Scan"
+        android:icon="@drawable/ic_cam"
+        />
+
+    <item
+        android:id="@+id/cart"
+        android:title="My Food"
+        android:icon="@drawable/ic_cart"
+        />
+    <item
+        android:id="@+id/dash"
+        android:title="Board"
+        android:icon="@mipmap/ic_bord2"
+        />
+
+
+</menu>
